@@ -88,6 +88,7 @@
     "@babel/preset-env": "^7.12.16",
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-node-resolve": "^11.2.0",
+    "@types/three": "^0.126.0",
     "concurrently": "^5.3.0",
     "eslint": "^7.20.0",
     "eslint-config-mdcs": "^5.0.0",
