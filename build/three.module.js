@@ -34284,7 +34284,7 @@ FileLoader.prototype = Object.assign( Object.create( Loader.prototype ), {
 
 		// Check for data: URI
 		const dataUriRegex = /^data:(.*?)(;base64)?,(.*)$/;
-		const dataUriRegexResult = url.match( dataUriRegex );
+		const dataUriRegexResult = String(url).match( dataUriRegex );
 		let request;
 
 		// Safari can not handle Data URIs through XMLHttpRequest so process manually
